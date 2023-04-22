@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .h2 {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">
+        Survey Form
+    </h1>
+    <div class="txt">
+        Thank You For Taking The Time And Help Us Improve
+    </div>
+    <div class="survey0">
+        <div class="survey">
+        <label for="name" style="font-weight: bold;">
+            First Name: 
+        </label>
+        <label for="h" class="s">
+            Last Name:
+        </label><br>
+        <input type="text" name="fname" id="name" placeholder="First Name" required>
+        <input type="text" name="sname" class="h2" placeholder="Last Name" required><br>
+
+        <h3 style="margin-bottom: 10px; margin-top: 10px;">
+            Address
+        </h3>
+        <label for="strees">
+            Street:
+        </label>
+        <label for="city" style="margin-left: 435px;">
+            City: 
+        </label><br>
+        <input type="text" name="street" id="strees" placeholder="Street" required style="margin-bottom: 10px;">
+        <input type="text" id="city" class="h2" placeholder="City" required style="margin-bottom: 10px;"><br>
+        <label for="state">
+            State:
+        </label>
+        <label for="pincode" style="margin-left: 436px;">
+            Pincode:
+        </label><br>
+        <input type="text" name="sta" id="state" placeholder="State" required>
+        <input type="number" id="pincode" class="h2" placeholder="Pincode" required>
+        <label for="cont" style="font-weight: bold;">
+            Contact Number:
+        </label><br>
+        <input type="number" name="num" id="cont" placeholder="Contact Number" required style="width: 935px;">
+        </div>
+            <h4 style="margin-bottom: 8px; font-weight: bold;">
+                Quality Of Products Recieved:
+            </h4>        
+            <label for="esc" class="lab">
+                Excellent: 
+            </label>
+            <input type="radio" name="qlt" id="esc" class="btn" checked> 
+            <label for="good" class = "lab2">
+                Good:
+            </label>
+            <input type="radio" name="qlt" id="good" class="btn">
+            <label for="bad" class="lab2">
+                Bad:</label>
+            <input type="radio" name="" id="bad" class="btn"><br>
+            <h4 style="margin-bottom: 8px; margin-top: 25px; font-weight: bold;" >
+                Value For Money:
+            </h4>        
+            <label for="es" class="lab">
+                Excellent: 
+            </label>
+            <input type="radio" name="value" id="es" class="btn" checked> 
+            <label for="go" class = "lab2">
+                Good:
+            </label>
+            <input type="radio" name="value" id="go" class="btn">
+            <label for="ba" class="lab2">
+                Bad:</label>
+            <input type="radio" name="value" id="ba" class="btn"><br>
+            <h4 style="margin-bottom: 8px;margin-top: 25px;font-weight: bold;">
+                Delivery:
+            </h4>        
+            <label for="e" class="lab">
+                Excellent: 
+            </label>
+            <input type="radio" name="delivery" id="e" class="btn" checked> 
+            <label for="g" class = "lab2">
+                Good:
+            </label>
+            <input type="radio" name="delivery" id="g" class="btn">
+            <label for="b" class="lab2">
+                Bad:</label>
+            <input type="radio" name="delivery" id="b" class="btn">
+            <div><input type="button" value="Submit" class="buttin"></div>
+    </div>
+</body>
+
+</html>
